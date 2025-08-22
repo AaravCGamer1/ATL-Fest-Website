@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <title>Eco Footprints</title>
+   </head>
+   <body>
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="home.html" class="nav__logo">
+               <img src="img/logo.png" alt="image">
+               <span>Eco Footprints</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li>
+                     <a href="home.html" class="nav__link">Home</a>
+                  </li>
+
+                  <li class="nav__item dropdown">
+                     <a href="#pages" class="nav__link">Pages</a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#intro">What is Eco Footprint?</a></li>
+                        <li><a href="#country">Know Your Country's Footprint</a></li>
+                        <li><a href="#calculator">Calculator</a></li>
+                        <li><a href="#eco">Reduce Your Footprint</a></li>
+                        <li><a href="#pledge">Take the Pledge</a></li>
+                     </ul>
+                  </li>
+
+                  <li>
+                     <a href="#aboutus" class="nav__link">About Us</a>
+                  </li>
+
+                  <li>
+                     <a href="#contactus" class="nav__link">Contact Us</a>
+                  </li>
+               </ul>
+
+               <!-- Close Button -->
+                <div class="nav__close" id="nav-close">
+                  <i class="ri-close-large-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__buttons">
+               <!-- Theme Button -->
+                <i class="ri-moon-fill nav__theme" id="theme-button"></i>
+
+                <!-- Toggle button -->
+                 <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-apps-2-fill"></i>
+                 </div>
+            </div>
+         </nav>
+      </header>
+
+      <main class="main">
+
+         <section class="home section" id="home">
+            <img src="img/home-bg.jpg" alt="image" class="home__bg">
+            <div class="home__blur"></div>
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h2 class="home__title">Save The <span class="auto-type"></span></h2>
+
+                  <p class="home__description">You leave footprints wherever you go — make them green.</p>
+                  <a href="#intro" class="button button__opa-30">Start Exploring <i class="ri-arrow-right-long-line"></i></a>
+               </div>
+            </div>
+         </section>
+
+         <section class="intro-section" id="intro">
+            <h2 class="section__title">🏡What is Ecological Footprint?</h2>
+
+            <div class="intro_container">
+               <p class="intro__para">
+                  An ecological footprint is a measure of human demand on Earth's ecosystems, specifically the amount of biologically productive land and water area needed to support a population's consumption and waste assimilation, using current technology and resource management practices. It essentially measures how much of nature's capacity is needed to support a particular lifestyle or activity. 
+               </p>
+            </div>
+
+            <div class="intro_img">
+               <img src="img/intro-img.png" alt="image" class="intro__img">
+            </div>
+         </section>
+
+         <section class="country-section" id="country">
+            <h2 class="section__title">🌍Know Your Country's Footprint</h2>
+
+            <div class="country_container">
+               <img src="img/country-img.png" alt="image" class="country__img">
+            </div>
+         </section>
+
+         <section class="calculator-section" id="calculator">
+            <h2 class="section__title">🧮Calculate Your Eco Footprints</h2>
+            
+            <div class="calculator_container">
+               <p class="calculator__para">Curious to know how many carbon footprints do you leave behind? <br> Go Ahead and Calculate them</p>
+               
+               <div class="slider-container">
+                  <h3 class="slider-title">🍽 Your Food Consumption</h3>
+                  <input type="range" min="0" max="4" step="1" value="2" id="ecoSlider">
+  
+                  <div class="slider-labels">
+                     <span>Vegan</span>
+                     <span>Vegetarian</span>
+                     <span>Low Meat</span>
+                     <span>Medium Meat</span>
+                     <span>High Meat</span>
+                  </div>
+
+                  <p class="slider-value">Current: <span id="sliderValue">Low Meat</span></p>
+               </div>
+
+               <a href="" class="button__calculator">Calculate <i class="ri-arrow-right-long-line"></i></a>
+            </div>
+
+            <div class="calculator_img">
+               <img src="img/calculator-img.jpg" alt="image" class="calculator__img">
+            </div>
+         </section>
+
+         <section class="eco-section" id="eco">
+            <h2 class="section__title">🌿How to Reduce Your Eco Footprint</h2>
+
+            <div class="tips-container">
+            <div class="tips-card">
+                <h3>🏠 At Home</h3>
+                <ul>
+                    <li>Turn off lights</li>
+                    <li>Use energy-efficient appliances</li>
+                </ul>
+            </div>
+            <div class="tips-card">
+                <h3>🏫 At School</h3>
+                <ul>
+                    <li>Say no to paper wastage</li>
+                    <li>Carry reusable bottles/lunch boxes</li>
+                </ul>
+            </div>
+            <div class="tips-card">
+                <h3>🌍 Lifestyle</h3>
+                <ul>
+                    <li>Reduce fast fashion</li>
+                    <li>Eat more plant-based meals</li>
+                </ul>
+            </div>
+         </div>
+         </section>
+
+         <section class="pledge-section" id="pledge">
+            <h2 class="section__title">📜Pledge to Reduce Eco Footprint</h2>
+            <p style="max-width:700px; margin:auto; text-align:center;">Join others in making a personal commitment to live sustainably.</p>
+            <form id="pledgeForm" style="margin-top:1.5rem; text-align:center;">
+               <input type="text" id="pledgeName" placeholder="Enter your name" required
+               style="padding:0.5rem; border-radius:5px; border:1px solid #ccc; width:250px;">
+               <button type="submit" style="background:#2e7d32; color:white; padding:0.5rem 1.2rem; border:none; border-radius:5px; cursor:pointer;">Sign the Pledge</button>
+            </form>
+            <p id="pledgeCounter" style="margin-top:1rem; font-weight:bold; color:#388e3c;">0 people have pledged so far.</p>
+         </section>
+         
+         <section class="contact section" id="contactus">
+            <h2 class="section__title">📩 Contact Us</h2>
+            <form style="max-width:500px; margin:auto; display:flex; flex-direction:column; gap:1rem;">
+               <input type="text" name="name" placeholder="Your Name" required style="padding:0.7rem; border-radius:5px; border:1px solid #ccc;">
+               <input type="email" name="email" placeholder="Your Email" required style="padding:0.7rem; border-radius:5px; border:1px solid #ccc;">
+               <textarea placeholder="Your Message" rows="4" style="padding:0.7rem; border-radius:5px; border:1px solid #ccc;"></textarea>
+               <button type="submit" style="background:#2e7d32; color:white; padding:0.7rem; border:none; border-radius:5px; cursor:pointer;">
+                  Send Message
+               </button>
+            </form>
+         </section>
+
+      </main>
+
+      <!-- FOOTER -->
+      <footer class="text-gray-600 body-font">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col footer-container">
+    <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+      <img src="img/logo.png" alt="image" class="nav__logoimg">
+      <span class="ml-3 text-xl">Eco Footprints</span>
+    </a>
+    <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2025  —
+      <a href="home.html" class="text-gray-600 ml-1" rel="noopener noreferrer">Eco Footprints</a>
+    </p>
+    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+      <a class="text-gray-500">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+    </span>
+  </div>
+</footer>
+
+      
+      <!--========== SCROLL UP ==========-->
+      <a href="#home" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="js/scrollreveal.min.js"></script>
+
+      <!-- SCRIPTS -->
+      <script src="js/main.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Earth", "Planet", "People", "Animals"],
+            typeSpeed: 130,
+            backSpeed: 65,
+            loop: true,
+        })
+      </script>
+      <div class="loader"></div>
+
+   </body>
+</html>
